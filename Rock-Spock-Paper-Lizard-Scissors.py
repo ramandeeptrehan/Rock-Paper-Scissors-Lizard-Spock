@@ -35,7 +35,7 @@ def rpsls(player_choice):
     comp_number = random.randrange(5)
     comp_choice = number_to_name(comp_number)
     print "Computer's choice: " + comp_choice
-    difference = (player_number - comp_number)%5
+    difference = (player_number-comp_number)%5
     if difference == 0:
         print "Tie"
     elif difference <=2:
